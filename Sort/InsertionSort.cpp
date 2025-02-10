@@ -1,3 +1,9 @@
+/*
+
+    非降序插入排序
+    用法: 输入一个数代表数组长度 接下来输入数组中的数据
+
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
