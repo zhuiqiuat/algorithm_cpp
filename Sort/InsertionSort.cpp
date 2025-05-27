@@ -9,7 +9,7 @@ using namespace std;
 
 typedef long long int ll;
 
-void insertionsort(ll arr[],int n){
+void insertionSort(ll arr[],int n){
     for(int i = 1;i < n;i++){
         ll tmp = arr[i];
         int now = i - 1;
@@ -26,7 +26,7 @@ int main(){
     cin >> n;
     ll arr[n];
     for(int i = 0;i < n;i++) cin >> arr[i];
-    insertionsort(arr,n);
+    insertionSort(arr,n);
     for(int i = 0;i < n;i++){
         if(i) cout << " ";
         cout << arr[i];

@@ -9,7 +9,7 @@ using namespace std;
 
 typedef long long int ll;
 
-void selectionsort(ll arr[],int n){
+void selectionSort(ll arr[],int n){
     for(int i = 0;i < n - 1;i++){
         int min = i;
         for(int j = i + 1;j < n;j++){
@@ -28,7 +28,7 @@ int main(){
     cin >> n;
     ll arr[n];
     for(int i = 0;i < n;i++) cin >> arr[i];
-    selectionsort(arr,n);
+    selectionSort(arr,n);
     for(int i = 0;i < n;i++){
         if(i) cout << " ";
         cout << arr[i];
